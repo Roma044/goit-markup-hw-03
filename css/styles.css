@@ -64,6 +64,11 @@ p {
   list-style: none;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -72,20 +77,23 @@ p {
   width: 1200px;
 }
 
-.outline {
-  border: 1px solid tomato;
-}
-
 /* Скриває крапки */
 /* .list{
   list-style; none;} */
 
 /* ---------------------Page Header------------------ */
 .page-header {
+  padding-top: 25px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
 
 .container-header {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
   display: flex;
   align-items: center;
 }
@@ -96,6 +104,10 @@ p {
 }
 
 /* --------------------------Logo-------------------------- */
+
+.logo {
+  margin-right: 93px;
+}
 
 .logo {
   color: var(--accent-color);
@@ -116,18 +128,11 @@ p {
 /* --------------------------Nav-------------------------- */
 
 .nav-list {
-  margin-left: 93px;
   display: flex;
 }
 
 .nav-list .item:not(:last-child) {
   margin-right: 50px;
-}
-
-.nav-list .link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .nav-list .link {
@@ -179,7 +184,7 @@ p {
 
 /* --------------------------Hero-------------------------- */
 
-.hero {
+.hero-page {
   background-color: var(--secondary-background-color);
   color: var(--primary-white-color);
   text-align: center;
@@ -227,7 +232,7 @@ p {
 
 /* --------------------------Section-------------------------- */
 
-.section {
+.section .feature-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -236,19 +241,16 @@ p {
   display: flex;
 }
 
-.adv-item:not(:last-child) {
+.specific-list .item:not(:last-child) {
   margin-right: 30px;
 }
 
-.adv-item {
-  min-width: 270px;
+.specific-list .item {
+  width: 270px;
 }
 
-.specific-list .title {
+.title {
   margin-bottom: 10px;
-}
-
-.section .title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -280,19 +282,15 @@ p {
   margin-bottom: 50px;
 }
 
-.section .list {
+.list {
   display: flex;
 }
 
-.item:not(:last-child) {
+.list .item:not(:last-child) {
   margin-right: 30px;
 }
 
-.section li + li {
-  margin-left: 30px;
-}
-
-.section img {
+.project-section img {
   display: block;
 }
 /* --------------------------Команда-------------------------- */
@@ -302,29 +300,24 @@ p {
   text-align: center;
 }
 
-.team-name {
-  margin-bottom: 10px;
-}
-
-.task img {
-  display: block;
-}
-
-.workers {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.team-item {
+  /* background-color: var(--main-page-background-color);  запасний варіант */
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.team {
-  background-color: var(--third-button-color);
+.team-pictures {
+  padding-bottom: 30px;
 }
 
-.team-list {
-  background-color: var(--main-page-background-color);
+.team {
+  background-color: var(--third-button-color);
 }
 
 .team-name {
@@ -335,12 +328,21 @@ p {
   letter-spacing: 0.03em;
 }
 
+.team-name {
+  margin-bottom: 10px;
+}
+
 .work-position {
   color: var(--secondary-text-color);
   font-weight: 400;
+  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+}
+
+.team img {
+  display: block;
 }
 /* --------------------------Footer-------------------------- */
 
@@ -360,6 +362,10 @@ p {
 }
 
 .footer-adress {
+  margin-top: 20px;
+}
+
+.footer-adress {
   color: var(--primary-white-color);
   font-style: normal;
   font-weight: 400;
@@ -368,17 +374,35 @@ p {
   letter-spacing: 0.03em;
 }
 
-.contact-list .footer-list {
-  display: flex;
-  margin-left: auto;
-  color: var(--contact-info-color);
+.email-link,
+.phone-link {
   text-decoration: none;
+  display: flex;
+  padding-top: 9px;
+  padding-bottom: 9px;
   font-style: normal;
+  color: var(--contact-info-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
+
+.address-list .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+/* .contact-list .footer-list { */
+/* display: flex; */
+/* margin-left: auto; */
+/* color: var(--contact-info-color); */
+/* text-decoration: none; */
+/* font-style: normal; */
+/* font-weight: 500; */
+/* font-size: 14px; */
+/* line-height: 1.1; */
+/* letter-spacing: 0.02em; */
+/* } */
 /* --------------------------Portfolio-------------------------- */
 
 .button-main {
