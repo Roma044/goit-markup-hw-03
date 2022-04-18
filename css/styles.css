@@ -18,7 +18,7 @@
   --second-button-color: #188ce8;
   --contact-info-color: rgba(255, 255, 255, 0.6);
   --third-button-color: #f5f4fa;
-  --border-color: #eeeeee
+  --border-color: #eeeeee;
 }
 
 /*-------Скриває заголовки----------  */
@@ -320,7 +320,7 @@ p {
 
 .team-pictures {
   padding-bottom: 30px;
-} 
+}
 
 .team {
   background-color: var(--third-button-color);
@@ -434,254 +434,45 @@ p {
   margin-bottom: 30px;
 }
 
-.link-brv{
+.link-brv {
   text-decoration: none;
-color:var(--secondary-text-color)
+  color: var(--secondary-text-color);
 }
 
 .example-us .item:nth-child(3n) {
   margin-right: 0;
 }
 
-.example-us .item:nth-last-child(-n + 3){
-  margin-bottom: 0;
+.example-us .item:nth-last-child(-n + 3) {
+  margin-bottom: 94px;
 }
 
-.example-us .preview{
+.example-us .preview {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 24px;
   padding-left: 24px;
 
-border: 1px solid var(--border-color);
-border-top: transparent;
+  border: 1px solid var(--border-color);
+  border-top: transparent;
 }
 
 /* --------------------Title------------------ */
 
-.example-us .example-title{
-margin-bottom: 4px;
-color: var(--main-text-color);
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 2; 
+.example-us .example-title {
+  margin-bottom: 4px;
+  color: var(--main-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
 }
 
 /* -----------------------Specialists-------------------- */
 
-.example-us .example-specialist .list{
+.example-us .example-specialist .list {
   color: var(--secondary-text-color);
   font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-}
-
-
-
-
-
-
-
-  /* .list-btn .button{
-  background-color: var(--third-button-color);
-  color: var(--main-text-color);
-  font-family: inherit;
-
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-
-.list-btn .button .active{
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
-
-.button:hover,
-.button:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-} */
-  /* .list-btn .button:hover,
-.list-btn .button:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-} */
-  /* .button-main {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
-.butn-list .item:not(:last-child) {
-  margin-right: 8px;
-}
-
-.button-main {
-  color: var(--main-text-color);
-  background-color: var(--third-button-color);
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-
-  cursor: pointer;
-}
-
-.section .button-main.current {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
-
-.button-main:hover,
-.button-main:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
-
-/* --------------------------Приклади-------------------------- */
-  /* .example-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.example-list.item: (: nth-child(3n)) {
-  margin-right: 30px;
-}
-
-.example-list.item: (: nth-last-child(-n + 3)) {
-  margin-bottom: 30px;
-}
-
-.example-list .item {
-  display: block;
-  min-width: 370px;
-}
-
-.example-title {
-  color: var(--main-text-color);
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-
-.preview {
-  border: 1px solid #eeeeee;
-  border-top: transparent;
-}
-
-.example-list .preview {
-  padding-top: 20;
-  padding-bottom: 20;
-  padding-left: 24;
-  padding-right: 24;
-}
-
-.example-list img {
-  display: block;
-}
-
-.example-list {
-  color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
 }
-
-.link-brv {
-  text-decoration: none;
-}  */
-  /* .button-main {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
-.butn-list .item:not(:last-child) {
-  margin-right: 8px;
-}
-
-.button-main {
-  color: var(--main-text-color);
-  background-color: var(--third-button-color);
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-
-  cursor: pointer;
-}
-
-.section .button-main.current {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
-
-.button-main:hover,
-.button-main:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
-
-/* --------------------------Приклади-------------------------- */
-  /* .example-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.example-list.item: (: nth-child(3n)) {
-  margin-right: 30px;
-}
-
-.example-list.item: (: nth-last-child(-n + 3)) {
-  margin-bottom: 30px;
-}
-
-.example-list .item {
-  display: block;
-  min-width: 370px;
-}
-
-.example-title {
-  color: var(--main-text-color);
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-
-.preview {
-  border: 1px solid #eeeeee;
-  border-top: transparent;
-}
-
-.example-list .preview {
-  padding-top: 20;
-  padding-bottom: 20;
-  padding-left: 24;
-  padding-right: 24;
-}
-
-.example-list img {
-  display: block;
-}
-
-.example-list {
-  color: var(--secondary-text-color);
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-}
-
-.link-brv {
-  text-decoration: none;
-}  */ * /;
-.item .item;
